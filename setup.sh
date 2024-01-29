@@ -6,4 +6,14 @@ cd $dir
 git pull
 cd -
 echo "[*] Starting script..."
+
 bash $dir/config/bootstrapper.sh
+
+bash $dir/tools/boostrapper.sh
+
+
+echo ""
+echo ""
+echo "+----------------------------------------------------+"
+echo "| Done! Please reboot for all changes to take effect |"
+echo "+----------------------------------------------------+"

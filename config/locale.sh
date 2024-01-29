@@ -1,6 +1,7 @@
 echo "[+] Keyboard layout to Belgium"
 setxkbmap be
-sudo cp keyboard.conf /etc/default/keyboard
+sudo cp /home/kali/kali-setup/config/keyboard.conf /etc/default/keyboard
+sudo service keyboard-setup restart
 
 echo "[+] Setting timezone"
 sudo timedatectl set-timezone Europe/Brussels
